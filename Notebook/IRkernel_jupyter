@@ -1,0 +1,10 @@
+When setting R for jupyter notebook, 
+you have to install "IRkernel" and launch it with the following command, IRkernel::installspec().
+
+If you receive the following message, do as follow. 
+"Error in IRkernel::installspec() :
+jupyter-client has to be installed but “jupyter kernelspec –version” exited with code 127."
+
+Solution)
+My Computer -> right click -> Properties -> Advanced System Setting -> Environmental Variable -> Edit “Path” 
+-> add “C:\Users\User\Anaconda3”, “C:\Users\User\Anaconda3\Scripts”, “C:\Users\User\Anaconda3\Library\bin”
