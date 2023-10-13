@@ -1,0 +1,6 @@
+To keep your Mac awake even if it is closed,
+
+1) Open terminal
+2) Type following command
+>> sudo pmset -c disablesleep 1
+( sudo pmset -c disablesleep 0 -> let it sleep)
