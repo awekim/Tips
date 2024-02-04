@@ -1,0 +1,7 @@
+# https://m.blog.naver.com/toruin84/222700864776
+
+1. Windows + R --> regedit
+2. 컴퓨터\HKEY_CURRENT_USER\Software\Policies\Google\Chrome
+3. Create DWORD(32bit) "RemoteAccessHostAllowClientPairing"
+4. Set value 1
+
